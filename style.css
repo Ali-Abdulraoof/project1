@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+*{
+ padding: 0;
+ margin: 0;
+ font-family: "Cairo"، sans-serif;
+ box-sizing: border-box;
+ scroll-behavior: smooth;
+}
+
+::selection{
+    background-color: rgb(236, 81, 166);
+    color: whites;
+
+}
+
+body{
+    height: 3000px;
+}
+header{
+    display: flex;
+    background-color: rgba(199, 193, 193, 0.5);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+   
+}
+.logo{
+    color:rgb(236, 40, 187);
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+nav a{
+    color: rgb(236, 40, 187);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    padding-left:20px ;
+}
+nav a:hover{
+    color: blue;
+    font-weight: 900;
+}
+.content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('https://www.solomon-3d.com/wp-content/uploads/2023/12/gauge-meter-reading-ar-ai-banner-scaled.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+section{
+    padding: 100px 150px;
+}
+.content h2{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.content h2 span {
+    color: rgb(229, 24, 24);
+    
+}
+.content h3{
+    color: aqua;
+    font-size: 50px;
+    font-weight: bold;
+}
+.contact-me{
+    display: inline-block;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin-bottom:30px;
+    font-weight: 600;
+    transition: 0.5 ease;
+}
+.contact-me:hover{
+    background-color: tomato;
+    transform: scale(1.1);
+}
+.social{
+    display: flex;
+}
+.social a{
+
+    font-size: 30px;
+    padding-right: 25px;
+    margin: auto;
+}
+.facebook a{
+    color: blue;
+}
+.whatsapp a{
+    color: green;
+}
+.youtube a{
+    color: red;
+}
+
+.my-cv{
+    text-align: center;
+    background-color:#eee ;
+}
+.my-cv h2{
+    color: red;
+    font-size: 35px;
+}
+.my-cv p{
+    color: rgb(74, 74, 74);
+    font-size: 22px;
+    margin-bottom: 35px;
+}
+.service{
+    display: flex;
+}
+.box{
+    background-color: #ffffff;
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #d4d4d4;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.box:hover{
+    background-color: #fafafa;
+    border-radius: 5px;
+    box-shadow: 5px 3px red;
+    transform: scale(1.1);
+}
+.box h3{
+    font-size: 30px;
+}
+.icon a{
+   color: green;
+   font-size: 40px;
+}
+.portfolio{
+    text-align: center;
+}
+.portfolio h2{
+    color: red;
+    font-size: 35px;
+}
+.portfolio p{
+    color: rgb(74, 74, 74);
+    font-size: 22px;
+    margin-bottom: 35px;
+}
+.photos{
+    display: flex;
+}
+.photo{
+    border: 1px solid black;
+    
+    margin: 20px;
+}
+.photos img{
+    width: 100%;
+}
+.contact-us{
+    background-color: #eee;
+    text-align: center;
+
+}
+.contact-us h2{
+    color: red;
+    font-size: 35px;
+}
+.contact-us p{
+    color: rgb(74, 74, 74);
+    font-size: 22px;
+    margin-bottom: 35px;
+}
+.contact-area{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    margin: 20px auto;
+    padding: 35px;
+    border: 1px solid #d4d4d4;
+    border-radius: 10px;
+}
+.from-input input{
+    width: 60%;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #d4d4d4;
+}
+.from-input textarea{
+    width: 60%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #d4d4d4;
+}
+.from-input .mm{
+      vertical-align: top;
+}
+
+
+.send{
+    padding: 5px 25px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.send:hover{
+    background-color: rgb(248, 84, 84);
+}
+footer{
+    border-top: 5px solid red;
+    background-color: #4b4949;
+    padding: 50px;
+    text-align: center;
+
+}
+footer p{
+    color: white;
+    font-size: 23px;
+}
